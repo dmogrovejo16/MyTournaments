@@ -1,0 +1,75 @@
+
+
+<ion-header >
+<ion-toolbar >
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Torneos</title>
+
+
+
+
+  <header class="header">
+   <button routerLink="/profile" style="border-radius: 100%; margin-left: 2rem;"> <img src="https://pixlok.com/wp-content/uploads/2022/02/Profile-Icon-SVG-09856789-300x300.png" alt="Logo" class="header__logo">
+   </button>
+    <h1 class="header__title">Torneos</h1>
+    
+    <img src="https://cdn-icons-png.flaticon.com/512/2665/2665430.png" alt="Usuario" class="header__user">
+
+  </header>
+</ion-toolbar>
+</ion-header>
+<body>
+    <main class="main">
+
+    <section class="cards">
+    
+      <button (click)="enviarMensaje()" id="btn1" routerLink="/partidos-fut">
+      <article class="card card--football">
+        <img src="https://cdn-icons-png.flaticon.com/512/2817/2817952.png" alt="Fútbol" class="card__img">
+        <h2 class="card__title">Fútbol</h2>
+      <button (click)="enviarMensaje2()" id="btn2" style="border-radius: 100%; z-index: 1;">  <img src="https://static-00.iconduck.com/assets.00/info-icon-2048x2048-tcgtx810.png" alt="Icono" class="card__icon">
+      </button>
+      </article>
+    </button>
+    <button>
+      <article class="card card--volleyball">
+        <img src="https://cdn-icons-png.flaticon.com/512/2761/2761875.png" alt="Voleibol" class="card__img">
+        <h2 class="card__title">Vóley</h2>
+        <button style="border-radius: 100%;">   <img src="https://static-00.iconduck.com/assets.00/info-icon-2048x2048-tcgtx810.png" alt="Icono" class="card__icon">
+        </button>
+        </article>
+    </button>
+    <button>
+      <article class="card card--basketball">
+        <img src="https://cdn-icons-png.flaticon.com/512/1645/1645768.png" alt="Básquetbol" class="card__img">
+        <h2 class="card__title">Básquetbol</h2>
+        <button style="border-radius: 100%;">  <img src="https://static-00.iconduck.com/assets.00/info-icon-2048x2048-tcgtx810.png" alt="Icono" class="card__icon">
+        </button>
+        </article>
+    </button>
+    </section>
+
+    <section class="matches">
+      <!-- próximos partidos -->
+    </section>
+    
+    <section class="rankings">
+      <!-- rankings -->
+    </section>
+
+    <div class="bott">
+      <button class="btn">
+    <section class="user">
+    
+      <img src="https://cdn-icons-png.flaticon.com/512/9131/9131529.png" alt="Usuario" class="user__avatar">
+      <h2 class="user__name">Julio Barros</h2>
+      <span class="user__role">Administrador</span>
+  
+    </section>
+  </button>
+  </div>
+
+  </main>
+
+</body>
